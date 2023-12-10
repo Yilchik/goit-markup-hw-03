@@ -41,6 +41,11 @@ section {
   text-transform: uppercase;
 }
 
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .logo-black {
   color: #2e2f42;
   font-family: Raleway, sans-serif;
@@ -103,11 +108,15 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 1.5;
-  display: inline-flex;
+  display: block;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -147,11 +156,13 @@ p {
   letter-spacing: 0.32px;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
 .header-nav {
@@ -159,13 +170,19 @@ p {
   align-items: center;
 }
 
+.logo {
+  margin-right: 76px;
+}
+
 .header-list {
   display: flex;
+  gap: 40px;
+}
+
+.link {
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 0;
-  gap: 40px;
-  margin-left: 76px;
 }
 
 .header-address {
@@ -204,12 +221,27 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-page {
-  width: 496px;
   margin: auto;
   margin-bottom: 48px;
+  max-width: 496px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feature-name-list {
@@ -236,21 +268,27 @@ img {
   padding-bottom: 32px;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
 }
 
 .team-foto {
   background-color: #ffffff;
   letter-spacing: 0.02em;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-h {
   margin-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-p {
-  padding-bottom: 32px;
+  text-align: center;
+}
+
+.team-text {
+  padding-bottom: 32px 0;
 }
 
 .team-name {
@@ -273,8 +311,8 @@ img {
 .portfolio-card {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  padding-bottom: 48px;
+  column-gap: 24px;
+  row-gap: 48px;
   justify-content: center;
   align-items: center;
 }
@@ -286,9 +324,13 @@ img {
 }
 
 .portfolio-text {
-  padding: 32px 0;
+  padding: 32px 16px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   border-top: none;
+}
+
+.portfolio-h {
+  margin-bottom: 8px;
 }
 
 .footer {
