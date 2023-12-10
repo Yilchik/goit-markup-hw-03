@@ -1,0 +1,163 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-black {
+  color: #2e2f42;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+}
+
+.logo-white {
+  color: #f4f4fd;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+}
+
+.link {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  line-height: 1.5;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
+address {
+  font-style: normal;
+}
+
+.address-link {
+  color: #434455;
+  letter-spacing: 0.32px;
+  line-height: 1.5;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+.hero {
+  background-color: #2e2f42;
+}
+
+h1 {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.04em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.team {
+  background-color: #f4f4fd;
+  text-align: center;
+}
+
+.team-foto {
+  letter-spacing: 0.02;
+}
+
+h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-foto {
+  background-color: #ffffff;
+}
+.portfolio {
+  line-height: 1.11;
+}
+
+.portfolio-foto {
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #2e2f42;
+  line-height: 1.17;
+}
+
+p {
+  font-size: 16px;
+}
+
+.feature-p {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.team-p {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.portfolio-p {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer-p {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-p {
+  color: #f4f4fd;
+}
