@@ -41,9 +41,14 @@ section {
   text-transform: uppercase;
 }
 
+.logo-header {
+  margin-right: 76px;
+}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+  text-decoration: none;
 }
 
 .logo-black {
@@ -69,6 +74,11 @@ section {
   font-weight: 500;
   letter-spacing: 0.32px;
   line-height: 1.5;
+  display: block;
+  text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 0;
 }
 
 .link:hover,
@@ -110,13 +120,12 @@ h1 {
   line-height: 1.5;
   display: block;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
   border: none;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .button:hover,
@@ -159,6 +168,7 @@ p {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -170,19 +180,9 @@ p {
   align-items: center;
 }
 
-.logo {
-  margin-right: 76px;
-}
-
 .header-list {
   display: flex;
   gap: 40px;
-}
-
-.link {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 0;
 }
 
 .header-address {
@@ -190,11 +190,6 @@ p {
   align-items: center;
   gap: 40px;
   padding-left: 0;
-}
-
-.team-p {
-  line-height: 1.5;
-  letter-spacing: 0.32px;
 }
 
 .portfolio-p {
@@ -205,14 +200,8 @@ p {
 .footer-p {
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.footer-p {
   color: #f4f4fd;
+  width: 264px;
 }
 
 img {
@@ -265,7 +254,6 @@ img {
 
 .team-card {
   display: flex;
-  padding-bottom: 32px;
   justify-content: center;
   align-items: center;
   gap: 24px;
@@ -278,13 +266,14 @@ img {
 }
 
 .team-h {
-  margin-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
 
 .team-p {
   text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .team-text {
@@ -304,10 +293,6 @@ img {
   margin-bottom: 72px;
 }
 
-.portfolio-foto {
-  background-color: #ffffff;
-}
-
 .portfolio-card {
   display: flex;
   flex-wrap: wrap;
@@ -318,8 +303,8 @@ img {
 }
 
 .portfolio-foto {
+  background-color: #ffffff;
   width: calc((100% - 24px * 2) / 3);
-  padding-bottom: 32px;
   justify-content: center;
 }
 
@@ -327,6 +312,7 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   border-top: none;
+  text-align: left;
 }
 
 .portfolio-h {
@@ -335,9 +321,4 @@ img {
 
 .footer {
   padding: 100px 0;
-}
-
-.footer-p {
-  width: 264px;
-  padding-top: 16px;
 }
